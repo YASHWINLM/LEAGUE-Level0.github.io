@@ -6,23 +6,41 @@
 <link rel="stylesheet" href="style.css">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
 <style>
-body,h1 {font-family: "Raleway", sans-serif}
-body, html {height: 100%}
+body,h1 {
+  font-family: "Arial", sans-serif
+}
+body, html {
+  height: 100%
+}
 .bgimg {
     min-height: 100%;
     background-position: center;
     background-size: cover;
 }
+.paredpapel{
+background-image: url("desktop.png");
+background-repeat: no-repeat;
+background-size: cover;
+}
+.copyright{
+position: absolute;
+bottom: 0;
+}
+a {
+color: black;
+
+}
+
 </style>
 
-<script src="http://league-level0.github.io/copyrightFooter.js"></script>
+<script src="copyrightFooter.js"></script>
     
-<body>
+<body class="paredpapel">
 
 <div class="bgimg w3-display-container w3-animate-opacity w3-text-white">
   <div class="w3-display-topleft w3-padding-large w3-xlarge">
 
-    <h1 class="w3-jumbo w3-animate-top">League Level 0   </h1>
+    <h1 class="w3-jumbo w3-animate-top" style="color: white;">League Level 0   </h1>
     <hr class="w3-border-grey" style="margin:auto;width:40%">
   </div>
 
@@ -37,10 +55,7 @@ body, html {height: 100%}
     <hr class="w3-border-grey" style="margin:auto;width:40%">
 
   </div>
-  <div class="w3-display-bottomleft w3-padding-large">
-    <a href="https://league-level0.github.io/"><img src="league.jpg" alt="league-logo"></a>
-  </div>
-    <div id="copyright">
+    <div id="copyright" class="copyright">
         <script>copyright();</script>
     </div>
 </div>
